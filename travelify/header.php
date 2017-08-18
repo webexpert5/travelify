@@ -42,9 +42,7 @@
 		 */
 		wp_head();
 	?>
-<link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
-	
-<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/estrangelo-edessa" rel="stylesheet" type="text/css"/>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -72,7 +70,6 @@
 				 * travelify_headerdetails 10
 				 */
 				do_action( 'travelify_header' );
-echo do_shortcode("[huge_it_slider id='1']"); 
 			?>
 		</header>
 		<?php

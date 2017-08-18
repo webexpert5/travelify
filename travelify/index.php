@@ -14,11 +14,8 @@
 	do_action( 'travelify_before_main_container' );
 ?>
 
-
-
 <div id="container">
 	<?php
-		
 		/** 
 		 * travelify_main_container hook
 		 *
@@ -29,10 +26,6 @@
 		do_action( 'travelify_main_container' );
 	?>
 </div><!-- #container -->
-
-
-
-
 
 <?php
 	/** 
